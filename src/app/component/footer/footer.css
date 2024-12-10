@@ -3,7 +3,6 @@
   height: 171px;
   top: 3214px;
   gap: 0px;
-  opacity: 0px;
 
   display: flex;
   color: #393939;
@@ -30,7 +29,6 @@ a {
   top: 3255px;
   left: 30px;
   gap: 40px;
-  opacity: 0px;
 }
 
 .footer-item ul {

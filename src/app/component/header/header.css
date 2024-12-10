@@ -5,7 +5,7 @@ header {
   height: 168px;
   gap: var(--8);
   border: 0px 0px 1px 0px;
-  opacity: 0px;
+
   background: var(--white, #ffffff);
   border-bottom: 1px solid #e5e7eb;
 }
@@ -23,7 +23,6 @@ header {
   top: 33px;
   left: 29px;
   gap: 0px;
-  opacity: 0px;
 }
 .images .images_right {
   width: Hug (768px) px;
@@ -33,7 +32,7 @@ header {
   padding: 0px 0px 0px 15px;
   gap: 10px;
   border-radius: 6px 0px 0px 0px;
-  opacity: 0px;
+
   background: #f9fafb;
   display: flex;
   align-items: center;
@@ -45,7 +44,7 @@ header {
   width: 694px;
   height: 21px;
   gap: 0px;
-  opacity: 0px;
+
   font-family: Geist;
   font-size: 14px;
   font-weight: 400;
@@ -71,7 +70,7 @@ header {
   top: 45px;
   left: 1059px;
   gap: 8px;
-  opacity: 0px;
+
   font-family: Poppins;
   font-size: 14px;
   font-weight: 500;
@@ -89,7 +88,7 @@ header {
   gap: 8px;
   border-radius: 6px 0px 0px 0px;
   border: 1px 0px 0px 0px;
-  opacity: 0px;
+
   background: #0093d0;
   border: 1px solid #007aad;
 }
@@ -101,7 +100,6 @@ nav {
   top: 130.42px;
   left: 23px;
   gap: 38px;
-  opacity: 0px;
 
   /* background-color: pink; */
 }

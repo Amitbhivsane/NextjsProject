@@ -21,7 +21,6 @@
   left: 30px;
   gap: 0px;
   border-radius: var(--radius-md);
-  opacity: 0px;
 }
 .content .right {
   background: var(--white, #ffffff);
@@ -30,14 +29,13 @@
   top: 237px;
   left: 816px;
   gap: 0px;
-  opacity: 0px;
 }
 
 .hello {
   width: Hug (95px) px;
   height: Hug (21px) px;
   gap: 0px;
-  opacity: 0px;
+
   display: flex;
 
   flex: content;
@@ -54,7 +52,6 @@
   top: 273px;
   left: 141px;
   gap: 0px;
-  opacity: 0px;
 }
 
 .right_content {
@@ -63,7 +60,7 @@
   top: 237px;
   left: 816px;
   gap: 0px;
-  opacity: 0px;
+
   font-family: Playfair Display;
   font-size: 30px;
   font-weight: 400;
@@ -76,7 +73,7 @@ right_content2 {
   width: 326px;
   height: 18px;
   gap: 0px;
-  opacity: 0px;
+
   font-family: Geist;
   font-size: 14px;
   font-weight: 400;
@@ -101,7 +98,6 @@ right_content2 {
   left: 817px;
   gap: 0px;
   border: 1px 0px 0px 0px;
-  opacity: 0px;
 }
 
 .left_c span {
@@ -124,7 +120,7 @@ right_content2 {
   padding: 14px 0px 14px 0px;
   gap: 10px;
   border-radius: var(--radius-sm);
-  opacity: 0px;
+
   background: #5cd2dd;
   font-family: Cabinet Grotesk;
   font-size: 16px;

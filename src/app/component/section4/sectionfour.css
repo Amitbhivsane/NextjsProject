@@ -11,7 +11,6 @@
   left: 20px;
   gap: 0px;
   border-radius: 20px 0px 0px 0px;
-  opacity: 0px;
 }
 
 .right4 {
@@ -22,7 +21,6 @@
   left: 742px;
   gap: 0px;
   border-radius: 20px 0px 0px 0px;
-  opacity: 0px;
 }
 
 .right41 {
@@ -31,7 +29,7 @@
   margin-top: 34px;
   margin-left: 33px;
   gap: 0px;
-  opacity: 0px;
+
   font-family: Cabinet Grotesk;
   font-size: 43px;
   font-weight: 500;
@@ -47,7 +45,7 @@
   margin-top: 35px;
   margin-left: 34px;
   gap: 0px;
-  opacity: 0px;
+
   font-family: Geist;
   font-size: 14px;
   font-weight: 500;
@@ -66,7 +64,7 @@
   gap: 0px;
   border-radius: 1px solid;
   border: 1px 0px 0px 0px;
-  opacity: 0px;
+
   background: #ffffff;
   border: 1px solid #f5e1eb;
 }
@@ -79,6 +77,6 @@
   padding: 19px 16px 19px 16px;
   gap: 8px;
   border-radius: var(--radius-md);
-  opacity: 0px;
+
   background: #5cd2dd;
 }
