@@ -1,0 +1,26 @@
+.section3 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 928px;
+  height: 255px;
+  /* top: 2430px;
+  left: 336px;
+  gap: 30px; */
+  opacity: 0px;
+}
+.s3_t {
+  width: 89px;
+  height: 22px;
+  top: 78px;
+  left: 268.67px;
+
+  font-family: Cabinet Grotesk;
+  font-size: 20px;
+  font-weight: 100;
+  line-height: 22px;
+  /* text-align: center; */
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: #393939;
+}

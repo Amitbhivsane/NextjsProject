@@ -1,0 +1,136 @@
+/* Content Section */
+.content {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  /* padding: 1rem; */
+  background: var(--white, #ffffff);
+}
+.content .left,
+.content .right {
+  /* flex: 1 1 50%; */
+  padding: 1rem;
+  height: 500px;
+  box-sizing: border-box;
+}
+.content .left {
+  background: #f8f6f4;
+  width: 761px;
+  height: 652px;
+  top: 231px;
+  left: 30px;
+  gap: 0px;
+  border-radius: var(--radius-md);
+  opacity: 0px;
+}
+.content .right {
+  background: var(--white, #ffffff);
+  width: 754px;
+  height: 635px;
+  top: 237px;
+  left: 816px;
+  gap: 0px;
+  opacity: 0px;
+}
+
+.hello {
+  width: Hug (95px) px;
+  height: Hug (21px) px;
+  gap: 0px;
+  opacity: 0px;
+  display: flex;
+
+  flex: content;
+  gap: 1%;
+}
+
+.left {
+  align-items: center;
+
+  justify-content: space-around;
+  display: flex;
+  width: 552px;
+  height: 552px;
+  top: 273px;
+  left: 141px;
+  gap: 0px;
+  opacity: 0px;
+}
+
+.right_content {
+  width: 511px;
+  height: 38px;
+  top: 237px;
+  left: 816px;
+  gap: 0px;
+  opacity: 0px;
+  font-family: Playfair Display;
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 37.5px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+}
+right_content2 {
+  width: 326px;
+  height: 18px;
+  gap: 0px;
+  opacity: 0px;
+  font-family: Geist;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 17.5px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  background: var(--body-primary-light, #9c9c9c);
+}
+.content_bottom {
+  display: flex;
+  align-items: center;
+  margin-top: 380px;
+}
+.left_c {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  width: 153px;
+  height: 49px;
+  top: 823px;
+  left: 817px;
+  gap: 0px;
+  border: 1px 0px 0px 0px;
+  opacity: 0px;
+}
+
+.left_c span {
+  cursor: pointer;
+}
+
+.left_c input {
+  width: 50px;
+  padding: 4px;
+  text-align: center;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.right_c {
+  width: 100%;
+  height: Fixed (50px) px;
+  top: 822px;
+  left: 978px;
+  padding: 14px 0px 14px 0px;
+  gap: 10px;
+  border-radius: var(--radius-sm);
+  opacity: 0px;
+  background: #5cd2dd;
+  font-family: Cabinet Grotesk;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 20.8px;
+  text-align: center;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+}

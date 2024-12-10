@@ -1,0 +1,17 @@
+main .section1 {
+  width: 100%;
+}
+h1 {
+  margin-top: 7%;
+  width: 268px;
+  height: 43px;
+  gap: 0px;
+  opacity: 0px;
+  font-family: Cabinet Grotesk;
+  font-size: 35px;
+  font-weight: 500;
+  line-height: 43.4px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+}

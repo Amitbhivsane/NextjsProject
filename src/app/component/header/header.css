@@ -1,0 +1,133 @@
+/* Header */
+header {
+  /* background: pink; */
+  width: 1600px;
+  height: 168px;
+  gap: var(--8);
+  border: 0px 0px 1px 0px;
+  opacity: 0px;
+  background: var(--white, #ffffff);
+  border-bottom: 1px solid #e5e7eb;
+}
+
+.images {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  padding: 1rem;
+  background: var(--white, #ffffff);
+}
+.images .images_left {
+  width: 133.01px;
+  height: 65px;
+  top: 33px;
+  left: 29px;
+  gap: 0px;
+  opacity: 0px;
+}
+.images .images_right {
+  width: Hug (768px) px;
+  height: Hug (50px) px;
+  top: 29px;
+  left: 173px;
+  padding: 0px 0px 0px 15px;
+  gap: 10px;
+  border-radius: 6px 0px 0px 0px;
+  opacity: 0px;
+  background: #f9fafb;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* text input */
+.input-text {
+  width: 694px;
+  height: 21px;
+  gap: 0px;
+  opacity: 0px;
+  font-family: Geist;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 21px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  /* background: #667482; */
+}
+
+/* right info */
+.rightinfo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex: content;
+  gap: 1%;
+}
+
+.text {
+  width: Hug (109px) px;
+  height: Hug (21px) px;
+  top: 45px;
+  left: 1059px;
+  gap: 8px;
+  opacity: 0px;
+  font-family: Poppins;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 21px;
+  text-align: right;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+}
+.panier {
+  width: Hug (105px) px;
+  height: Fixed (48px) px;
+  top: 31px;
+  left: 1356px;
+  padding: 10px 16px 10px 16px;
+  gap: 8px;
+  border-radius: 6px 0px 0px 0px;
+  border: 1px 0px 0px 0px;
+  opacity: 0px;
+  background: #0093d0;
+  border: 1px solid #007aad;
+}
+
+/* Navigation */
+nav {
+  width: Hug (1, 537px) px;
+  height: Hug (21px) px;
+  top: 130.42px;
+  left: 23px;
+  gap: 38px;
+  opacity: 0px;
+
+  /* background-color: pink; */
+}
+
+nav ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: last baseline;
+  list-style: none;
+}
+nav ul li {
+  margin-top: 25px;
+}
+nav ul li a {
+  font-family: Inter;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 21px;
+  text-align: center;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: gray;
+}
+
+nav ul li a:haver {
+  background: #0093d0;
+}
