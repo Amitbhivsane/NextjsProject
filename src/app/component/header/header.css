@@ -1,6 +1,6 @@
 /* Header */
 header {
-  /* background: pink; */
+  background: pink;
   width: 1600px;
   height: 168px;
   gap: var(--8);
