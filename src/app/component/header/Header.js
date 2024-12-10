@@ -2,7 +2,7 @@ import React from "react";
 import styles from "./header.css";
 import writes from "../img/writes.png";
 import name from "../img/name.png";
-import icon from "../img/icon.png";
+import Icon from "../img/Icon.png";
 import Rectang from "../img/Rectang.png";
 
 import Avatar from "../img/Avatar.png";
