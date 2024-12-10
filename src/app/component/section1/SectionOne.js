@@ -1,12 +1,13 @@
 import React from "react";
 import sectionone from "./sectionone.css";
 import Image from "next/image";
-import Card_Product from "../img/Card_Product.png";
+// import cardProduct from "../img/Card_Product.png";
+import cardProduct from "../../../../public/cardProduct.png";
 const SectionOne = () => {
   const products = [
     {
       id: 1,
-      image: { Card_Product },
+      image: { cardProduct },
       name: "Title",
       price: "0,35€/Pièce · RÉF : VABGN5",
       amu: "0€",
@@ -14,7 +15,7 @@ const SectionOne = () => {
     },
     {
       id: 2,
-      image: { Card_Product },
+      image: { cardProduct },
       name: "Title",
       price: "0,35€/Pièce · RÉF : VABGN5",
       amu: "0€",
@@ -22,7 +23,7 @@ const SectionOne = () => {
     },
     {
       id: 3,
-      image: { Card_Product },
+      image: { cardProduct },
       name: "Title",
       price: "0,35€/Pièce · RÉF : VABGN5",
       amu: "0€",
@@ -30,7 +31,7 @@ const SectionOne = () => {
     },
     {
       id: 4,
-      image: { Card_Product },
+      image: { cardProduct },
       name: "Title",
       price: "0,35€/Pièce · RÉF : VABGN5",
       amu: "0€",
@@ -61,7 +62,7 @@ const SectionOne = () => {
               }}
             >
               <Image
-                src={Card_Product}
+                src={cardProduct}
                 alt={product}
                 style={{
                   display: "flex",

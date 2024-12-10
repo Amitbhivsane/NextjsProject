@@ -1,24 +1,25 @@
 import React from "react";
 import sectionTwo from "./sectionTwo.css";
 import Image from "next/image";
-import Card_Product from "../img/Card_Product.png";
+// import cardProduct from "../img/Card_Product.png";
+import cardProduct from "../../../../public/cardProduct.png";
 const SectionTwo = () => {
   const products = [
     {
       id: 1,
-      image: { Card_Product },
+      image: { cardProduct },
     },
     {
       id: 2,
-      image: { Card_Product },
+      image: { cardProduct },
     },
     {
       id: 3,
-      image: { Card_Product },
+      image: { cardProduct },
     },
     {
       id: 4,
-      image: { Card_Product },
+      image: { cardProduct },
     },
   ];
   return (
@@ -49,7 +50,7 @@ const SectionTwo = () => {
               }}
             >
               <Image
-                src={Card_Product}
+                src={cardProduct}
                 alt={product}
                 style={{
                   display: "flex",

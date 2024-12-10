@@ -1,9 +1,13 @@
 import React from "react";
 import sectionthree from "./sectionthree.css";
-import Groupe_123 from "../img/Groupe_123.png";
-import Groupe_504 from "../img/Groupe_504.png";
-import Groupe_56 from "../img/Groupe_56.png";
-import Groupe_25 from "../img/Groupe_25.png";
+// import Groupe_123 from "../img/Groupe_123.png";
+// import Groupe_504 from "../img/Groupe_504.png";
+// import Groupe_56 from "../img/Groupe_56.png";
+// import Groupe_25 from "../img/Groupe_25.png";
+import Groupea from "../../../../public/Groupea.png";
+import Groupeb from "../../../../public/Groupeb.png";
+import Groupec from "../../../../public/Groupec.png";
+import Groupee from "../../../../public/Groupee.png";
 import Image from "next/image";
 const SectionThree = () => {
   return (
@@ -30,20 +34,20 @@ const SectionThree = () => {
         </h6>
         <div className="section3">
           <div>
-            <Image src={Groupe_25} alt="img1" />
+            <Image src={Groupec} alt="img1" />
             <p className="s3_t">Livraison & Reprise</p>
           </div>
 
           <div>
-            <Image src={Groupe_504} alt="img1" />
+            <Image src={Groupeb} alt="img1" />
             <p className="s3_t">Nettoyage</p>
           </div>
           <div>
-            <Image src={Groupe_25} alt="img1" />
+            <Image src={Groupee} alt="img1" />
             <p className="s3_t"> Commande Illimitée</p>
           </div>
           <div>
-            <Image src={Groupe_123} alt="img1" />
+            <Image src={Groupea} alt="img1" />
             <p className="s3_t">Transport & Enlèvement</p>
           </div>
         </div>

@@ -1,8 +1,11 @@
 import React from "react";
 import styles from "./content.css";
 import Image from "next/image";
-import Location from "../img/Location.png";
-import table1 from "../img/table1.png";
+// import location from "../img/location.png";
+import location from "../../../../public/location.png";
+// import table1 from "../img/table1.png";
+import table1 from "../../../../public/table1.png";
+
 const Content = () => {
   return (
     <>
@@ -32,7 +35,7 @@ const Content = () => {
                 <Image src={table1} alt="table1" />
               </p>
             </div>
-            <Image src={Location} alt="Location" />
+            <Image src={location} alt="Location" />
           </div>
           <div className="right">
             <div className="right_content">

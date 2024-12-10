@@ -1,12 +1,16 @@
 import React from "react";
 import footer from "./footer.css";
-import writes from "../img/writes.png";
-import name from "../img/name.png";
+// import writes from "../img/writes.png";
+// import name from "../img/name.png";
 import Image from "next/image";
-import inst from "../img/inst.png";
-
-import linkedin from "../img/linkedin.png";
-import twitt from "../img/twitt.png";
+// import inst from "../img/inst.png";
+// import linkedin from "../img/linkedin.png";
+// import twitt from "../img/twitt.png";
+import writes from "../../../../public/writes.png";
+import name from "../../../../public/name.png";
+import inst from "../../../../public/inst.png";
+import linkedin from "../../../../public/linkedin.png";
+import twitt from "../../../../public/twitt.png";
 
 const Footer = () => {
   return (

@@ -1,14 +1,15 @@
 import React from "react";
 import sectionfour from "./sectionfour.css";
 import Image from "next/image";
-import Frame204 from "../img/Frame204.png";
+// import Frame204 from "../img/Frame204.png";
 
+import frame from "../../../../public/frame.png";
 const SectionFour = () => {
   return (
     <>
       <div className="container4">
         <div className="left4">
-          <Image src={Frame204} alt="img" />
+          <Image src={frame} alt="img" />
         </div>
         <div className="right4">
           <p className="right41">
