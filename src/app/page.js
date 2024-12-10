@@ -11,15 +11,17 @@ import styles from "./page.module.css";
 export default function Home() {
   return (
     <div className="top">
+      <Header />
+      <Content />
+
       <main>
-        <Header />
-        <Content />
         <SectionOne />
         <SectionTwo />
         <SectionThree />
-        <SectionFour />
-        <Footer />
       </main>
+      <SectionFour />
+
+      <Footer />
     </div>
   );
 }
